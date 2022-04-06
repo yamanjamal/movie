@@ -26,14 +26,14 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 
-
+    @yield('css')
 
 
          @livewireStyles
        
 
     </head>
-    <body class="{{-- text-white bg-gray-900  --}} " >
+    <body class="text-white bg-gray-900  " >
 {{--         <nav class=" navbar navbar-expand-lg  py-3">
           <div class="container">
             <a href="{{ route('movie') }}"  >
@@ -114,5 +114,6 @@
 
 
         @livewireScripts
+         @yield('js')
     </body>
 </html>

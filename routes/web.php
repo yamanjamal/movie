@@ -8,7 +8,7 @@ use App\Http\Controllers\ActorsController;
 route::view('/fortest','fortest')->name('movies_page');
 // route::view('/movie','/movies/show')->name('show');
 
-Route::get('/', [MoviesController::class, 'index'])->name('movie');
+Route::get('/'	, [MoviesController::class, 'index'])->name('movie');
 Route::get('/movies/{id}', [MoviesController::class, 'show'])->name('show');
 // Route::get('/toprated', [MoviesController::class, 'toprated'])->name('movie_toprated');
 Route::get('/toprated/{page}', [MoviesController::class, 'toprated'])->name('movie_toprated');
@@ -31,5 +31,5 @@ Route::get('/actors/{page}', [ActorsController::class, 'index'])->name('actor');
 Route::get('/actor/{id}', [ActorsController::class, 'show'])->name('actor.show');
 Route::get('/actorknownfor/{id}', [ActorsController::class, 'knownfor'])->name('actor.known');
 
-
+// route::view('/sidebar','layouts.sidebar')->name('sidebar');
 
