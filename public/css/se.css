@@ -1,0 +1,159 @@
+
+/*global*/
+body{
+/*background-color: #0c1629;*/
+background-color: #0c0f21;
+color: white;
+}
+
+span{
+    font-size: 15px;
+    /*font-size: 17px;*/
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+/*end global*/
+
+
+/*navbar*/
+.navbar-toggler{
+    background-color: #990000;
+}
+.dropdown-item  {
+    /*text-align: center;*/
+    color: #a4a3ff;
+   
+}
+.dropdown-menu  {
+    background-color: #22203e;
+   
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #1e2125;
+    background-color: #749bc3;
+}
+hr.dropdown-divider {
+    background-color: #007ffe;
+}
+.brand{
+ /*color: red;    */
+ font-size: 28px;
+ font-family: arial;
+}
+/*end navbar*/
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+/*headers*/
+.heder{
+	font-size:30px;
+	color: orange;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+/*edn*/
+
+/*movie name*/
+.name {
+    font-weight: bold;
+    font-size: 18px;
+
+}
+/*end*/
+/*movie index nav*/
+
+
+
+.index_hr{
+    background-color: #00e1ff;
+}
+.index_nav a {
+    font-size: 17px;
+    color: #00e1ff;
+
+}
+.index_nav a:hover{
+    font-size: 17px;
+    color: #00e100;
+    
+}
+/* end movie index nav*/
+
+
+/*crew section*/
+.crew .her4{
+	font-size: 60px;
+}
+.watch_btn{
+	background-color: #ed8936;
+}
+/*end*/
+
+/*for modal*/
+@media (min-width: 1024px){
+   .main_modal  .lg\:px-32 {
+        width: 100%;
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+}
+@media (min-width: 992px){
+    .main_modal .container, .container-lg, .container-md, .container-sm {
+         padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+/*end modal*/
+/*start search*/
+
+.fa-search{
+    position: relative;
+    right:  245px;
+    top: 0px;
+}
+/*end search*/
+
+/*actor*/
+.btn-success {
+    color: #fff;
+    background-color: #198754;
+    border-color: #000000;
+
+
+}
+/*end actor*/
+
+
+/*tv */
+.tvseason{
+
+}
+.tvseason .season{
+    display: inline-block;
+    margin-left: 20px;
+    background-color: rebeccapurple;
+    padding: 10px;
+    padding-bottom: 12px;
+    border-radius: 18px;
+}
+/*end tv*/
+/*start careusel*/
+
+.carousel-item .d-block {
+    display: block!important;
+    margin-left: 610px;
+}
+/*end careusel*/
+
